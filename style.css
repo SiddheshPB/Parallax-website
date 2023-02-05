@@ -1,0 +1,61 @@
+html, body{
+  height: 100%;
+  font-size: 16px;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+} 
+.pImage1{
+  background-image: url(images/image1.png);
+  min-height: 100%;
+
+}
+.pImage2{
+  background-image: url(images/image2.png);
+  min-height: 400px;
+
+}
+.pImage3{
+  background-image: url(images/image3.png);
+  min-height: 400px;
+
+}
+.pImage1,.pImage2,.pImage3{
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+}
+.ptext{
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  width: 100%;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  font-size: 30px;
+
+}
+.textbg{
+  background-color: #313534;
+  color: #fff;
+  padding: 20px;
+}
+.section1{
+  padding: 50px 80px;
+  text-align: center;
+}
+.section-light{
+  background-color: #f4f4f4;
+  color:#666;
+
+}
+.section-dark{
+  background-color: #282e34;
+  color: #ddd;
+
+}
